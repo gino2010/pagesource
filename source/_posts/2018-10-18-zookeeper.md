@@ -126,6 +126,19 @@ log.info("path test:{}", new String(bytes));
 private String zc;
 ```
 
+也可以将配置信息加载到一个对象上，并实现动态刷新
+```java
+@Component
+@RefreshScope
+@ConfigurationProperties("demopro")
+public class DemoProperties {
+    private String key;
+    private String value;
+    
+    //get set
+}
+```
+
 
 配置文件需要：
 
@@ -147,10 +160,16 @@ config:
 - /demo/context,default
 - /demo/context
 
-具体到zc这个配置，对应在default下的全路径是：/demo/zookeeperDemo::default/zc，你可以在zookeeper中创建一个：
+具体到zc这个配置，对应在default下的全路径是：/demo/zookeeperDemo,default/zc，你可以在zookeeper中创建一个：
 
 ```
 create /demo/zookeeperDemo,default/zc data
+```
+
+具体到DemoProperties配置对应在default下的全路径是：
+```
+create /demo/zookeeperDemo,default/demopro.key prokey
+create /demo/zookeeperDemo,default/demopro.value provalue
 ```
 
 以上为工程实验的关键点，具体工程参考源码，工程后续可能还会更新。
