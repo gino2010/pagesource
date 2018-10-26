@@ -48,7 +48,7 @@ Swift是高可用、分布式、最终一致性的对象存储，具体文件对
 不通场景中需要不通的服务来构建，可以参考[sample configurations](https://www.openstack.org/software/sample-configs)
 
 ## What is the relationship between Docker and OpenStack
-![](/images/post/20181011/docker&openstack.png)
+![](/images/post/20181011/docker openstack.png)
 - Docker 主要针对 Paas 平台，是以应用为中心。
 - OpenStack 主要针对 Iaas 平台，以资源为中心，可以为上层的 PaaS 平台提供存储、网络、计算等资源。
 
