@@ -10,7 +10,7 @@ categories: tech
 
 ## What is OpenStack?
 [OpenStack](https://www.openstack.org)是被广泛使用的云操作系统，它管啥，如图：
-![](https://www.openstack.org/software/images/diagram/overview-diagram.svg)
+![](https://www.openstack.org/software/images/map/openstack-map-v20180601.svg)
 
 <!-- more -->
 
