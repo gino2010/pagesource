@@ -72,13 +72,13 @@ instance Monad Prob where
 * visual studio code + Haskell 插件，这个组合还是很给力的，语法高亮，代码优化推荐，quick fix提醒，快速查看文档，对于我这个初学者受益匪浅
 * https://hoogle.haskell.org/ 这个网站很重要，可以查询方法使用，部分包含实例，也可以定位源码，便于深入理解
 * Idea + Haskell 插件和 VS Code 相比差了很多，暂不推荐
-* ghci中常用指令 :m :l :t :k :i :q
-* 编译指令和运行
+* ghci中常用指令 :m :l :t :k :i :q 大量时间依赖他们去理解代码
+* 编译指令和解释运行指令
 ```shell
 ghc --make <file>.hs
 runhaskell <file>.hs
 ```
-* 至今不会运行时的debug
+* 至今不会运行时的debug，如何解？
 
 ## JVM 运行 Haskell
 你想在JVM中运行 Haskel 语法的代码吗？ 找到两个利用JVM运行Haskell代码的方式
@@ -88,14 +88,14 @@ runhaskell <file>.hs
 感觉如果今后要是想把Haskell迁移到JVM环境，这是个思路。 两个资源都是BSD 3-clause开源协议
 
 亦或是学习一下[scala](https://www.scala-lang.org/) ?直接迁移，谁知道呢，知识尚浅，稍后再比较了
-目前的我，如果不写Java，还是更喜欢写Python，呵呵。
+P.S.目前的我，如果不写Java，还是更喜欢写Python，呵呵。
 
 ## 后话
 从网上找了两本Haskell编程的书，2019年出版的还是很新的，其中应用场景为金融数据分析，和我后面要做的事情应该比较接近。
-但后面要做的事情还没有定下来，已经小一个月了，好事多磨，好事多磨啊～ 希望后续一切顺利吧
+已经小一个月了，后续的事情还没有确定，好事多磨，好事多磨啊～ 希望后续一切顺利吧
 确定后，会开始深入Haskell的一个具体应用。
 
-最近工作和学习内容一起忙乎，并且连续两个周末在家学习，有点疲惫。
+最近工作和学习内容一起忙乎，并且连续两个周末都在家学习，有点疲惫。
 这几天没什么事情的话，就只想好好提升一下英语，计划周末去听一个2个小时的英语专场，去看Ryan Reynolds 演的《Free Guy》😛
 
 这个周末对我很重要，很重要～～～～
