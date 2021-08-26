@@ -66,7 +66,7 @@ instance Monad Prob where
 8. Monad包中的内容发生改变，原来import Control.Monad.Writer，现在需要import Control.Monad.Trans.Writer
 9. Error 类型已经废弃，替换使用Except import Control.Monad.Trans.Except
 
-书中还有几处的代码可以优化的，并没有特别记录下来，稍后可以分享一下我敲的书中实例代码，哪里有。
+书中还有几处的代码可以优化的，并没有特别记录下来，稍后可以分享一下我敲的书中实例代码。
 
 ## 开发体验
 * visual studio code + Haskell 插件，这个组合还是很给力的，语法高亮，代码优化推荐，quick fix提醒，快速查看文档，对于我这个初学者受益匪浅
